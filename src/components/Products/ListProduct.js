@@ -6,59 +6,110 @@ const ListProduct = () => {
                <div className="col-md-12">
                <div className="card">
                <div className="card-header">
-                    <h3 className="card-title">Bordered Table</h3>
+                    <h3 className="card-title">Danh sách sản phẩm</h3>
                </div>
                {/* /.card-header */}
                <div className="card-body">
                     <table className="table table-bordered">
                          <thead>                  
                               <tr>
-                              <th style={{width: 10}}>#</th>
-                              <th>Task</th>
-                              <th>Progress</th>
-                              <th style={{width: 40}}>Label</th>
+                                   <th style={{width: 10}}>#</th>
+                                   <th>Hình ảnh</th>
+                                   <th>Tên sản phẩm</th>
+                                   <th>Danh mục</th>
+                                   <th>Trạng thái</th>
+                                   <th style={{width: 200}}>Action</th>
                               </tr>
                          </thead>
                          <tbody>
+                        
                          <tr>
-                         <td>1.</td>
-                         <td>Update software</td>
-                         <td>
-                         <div className="progress progress-xs">
-                              <div className="progress-bar progress-bar-danger" style={{width: '55%'}} />
-                         </div>
-                         </td>
-                         <td><span className="badge bg-danger">55%</span></td>
+                              <td>1</td>
+                              <td><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJYDvxM_0_lXtAw__EyNjlSTTbNZJcB6rZbJpL726lue_7AP5OVWg&usqp=CAc" width={40} height={40}></img></td>
+                              <td>Điện thoại iPhone 13 pro max 128GB</td>
+                              <td>
+                                   Sản phẩm cao cấp
+                              </td>
+                              <td>
+                                   <div className="form-group">
+                                        <div className="custom-control custom-switch">
+                                             <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                             <label className="custom-control-label" htmlFor="customSwitch1"></label>
+                                        </div>
+                                   </div>
+
+                              </td>
+                              <td>
+                                   <a href='#' className='btn btn-default btn-sm mr-2'>Xem</a>
+                                   <a href='#' className='btn btn-info btn-sm mr-2'>Sửa</a>
+                                   <a href='#' className='btn btn-danger btn-sm'>Xóa</a>
+                              </td>
                          </tr>
                          <tr>
-                         <td>2.</td>
-                         <td>Clean database</td>
-                         <td>
-                         <div className="progress progress-xs">
-                              <div className="progress-bar bg-warning" style={{width: '70%'}} />
-                         </div>
-                         </td>
-                         <td><span className="badge bg-warning">70%</span></td>
+                              <td>2</td>
+                              <td><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJYDvxM_0_lXtAw__EyNjlSTTbNZJcB6rZbJpL726lue_7AP5OVWg&usqp=CAc" width={40} height={40}></img></td>
+                              <td>Điện thoại iPhone 13 pro max 128GB</td>
+                              <td>
+                                   Sản phẩm cao cấp
+                              </td>
+                              <td>
+                                   <div className="form-group">
+                                        <div className="custom-control custom-switch">
+                                             <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                             <label className="custom-control-label" htmlFor="customSwitch1"></label>
+                                        </div>
+                                   </div>
+
+                              </td>
+                              <td>
+                                   <a href='#' className='btn btn-default btn-sm mr-2'>Xem</a>
+                                   <a href='#' className='btn btn-info btn-sm mr-2'>Sửa</a>
+                                   <a href='#' className='btn btn-danger btn-sm'>Xóa</a>
+                              </td>
                          </tr>
                          <tr>
-                         <td>3.</td>
-                         <td>Cron job running</td>
-                         <td>
-                         <div className="progress progress-xs progress-striped active">
-                              <div className="progress-bar bg-primary" style={{width: '30%'}} />
-                         </div>
-                         </td>
-                         <td><span className="badge bg-primary">30%</span></td>
+                              <td>3</td>
+                              <td><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJYDvxM_0_lXtAw__EyNjlSTTbNZJcB6rZbJpL726lue_7AP5OVWg&usqp=CAc" width={40} height={40}></img></td>
+                              <td>Điện thoại iPhone 13 pro max 128GB</td>
+                              <td>
+                                   Sản phẩm cao cấp
+                              </td>
+                              <td>
+                                   <div className="form-group">
+                                        <div className="custom-control custom-switch">
+                                             <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                             <label className="custom-control-label" htmlFor="customSwitch1"></label>
+                                        </div>
+                                   </div>
+
+                              </td>
+                              <td>
+                                   <a href='#' className='btn btn-default btn-sm mr-2'>Xem</a>
+                                   <a href='#' className='btn btn-info btn-sm mr-2'>Sửa</a>
+                                   <a href='#' className='btn btn-danger btn-sm'>Xóa</a>
+                              </td>
                          </tr>
                          <tr>
-                         <td>4.</td>
-                         <td>Fix and squish bugs</td>
-                         <td>
-                         <div className="progress progress-xs progress-striped active">
-                              <div className="progress-bar bg-success" style={{width: '90%'}} />
-                         </div>
-                         </td>
-                         <td><span className="badge bg-success">90%</span></td>
+                              <td>4</td>
+                              <td><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJYDvxM_0_lXtAw__EyNjlSTTbNZJcB6rZbJpL726lue_7AP5OVWg&usqp=CAc" width={40} height={40}></img></td>
+                              <td>Điện thoại iPhone 13 pro max 128GB</td>
+                              <td>
+                                   Sản phẩm cao cấp
+                              </td>
+                              <td>
+                                   <div className="form-group">
+                                        <div className="custom-control custom-switch">
+                                             <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                             <label className="custom-control-label" htmlFor="customSwitch1"></label>
+                                        </div>
+                                   </div>
+
+                              </td>
+                              <td>
+                                   <a href='#' className='btn btn-default btn-sm mr-2'>Xem</a>
+                                   <a href='#' className='btn btn-info btn-sm mr-2'>Sửa</a>
+                                   <a href='#' className='btn btn-danger btn-sm'>Xóa</a>
+                              </td>
                          </tr>
                     </tbody>
                     </table>
