@@ -3,6 +3,8 @@ import React from 'react';
 const DashboardHead = () => {
      return (
           <>
+          <section className="content">
+                         <div className="container-fluid">
              <div className="row">
           <div className="col-lg-3 col-6">
             {/* small box */}
@@ -61,7 +63,8 @@ const DashboardHead = () => {
           </div>
           {/* ./col */}
         </div>
-          
+        </div>
+        </section>
           </>
      )
 }

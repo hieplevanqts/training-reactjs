@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Breadcrumb from './../layouts/Breadcrumb';
 
 const ListProduct = () => {
      return (
           <>
+          <Breadcrumb title={`Quản lý sản phẩm`}/>
+          <section className="content">
+          <div className="container-fluid">
                <div className="col-md-12">
                <div className="card">
                <div className="card-header">
@@ -76,7 +80,8 @@ const ListProduct = () => {
                </div>
                
                </div>
-
+               </div>
+               </section>
           </>
      )
 }

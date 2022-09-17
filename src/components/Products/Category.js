@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Breadcrumb from './../layouts/Breadcrumb';
 
 const Category = () => {
      return (
           <>
+          <Breadcrumb title={`Danh mục sản phẩm`}/>
+          <section className="content">
+          <div className="container-fluid">
                <div className="col-md-12">
                <div className="card">
                <div className="card-header">
@@ -76,7 +80,8 @@ const Category = () => {
                </div>
                
                </div>
-
+          </div>
+          </section>
           </>
      )
 }
