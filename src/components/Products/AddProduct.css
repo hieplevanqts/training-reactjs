@@ -1,3 +1,26 @@
 .ck-editor__editable_inline {
     min-height: 200px;
 }
+.img-item{
+    position: relative;
+    display: inline-block;
+}
+.img-item i{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: red;
+
+}
+.img-item i:hover{
+    cursor: pointer;
+}
+#presentation{
+    width: 100%;
+    height: auto;
+    border: 1px dashed #ccc;
+    padding: 10px;
+}
+#img_multi{
+    padding: 10px 0px;
+}
